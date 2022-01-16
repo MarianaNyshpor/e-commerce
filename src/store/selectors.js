@@ -1,0 +1,11 @@
+export const logInTokenSelector = state => state.logInToken;
+export const registrationTokenSelector = state => state.registrationToken;
+export const productsSelector = state => state.products;
+export const userSelector = state => state.user;
+export const isLoadingSelector = state => state.isLoading;
+export const categoriesSelector = state => state.categories;
+export const selectedItemSelector = state => state.selectedItem;
+export const cartItemsSelector = state => state.cartItems;
+export const favoritesSelector = state => state.favorites;
+export const ordersSelector = state => state.orders;
+export const errorSelector = state => state.error;
